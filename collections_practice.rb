@@ -36,8 +36,6 @@ def kesha_maker(string_array)
   new_array.each { |char| char[2] = "$" }
 end
 
-
-
-
-
-
+def find_a(string_array)
+    string_array.select { |string| string[0][0] == "a" }
+end
