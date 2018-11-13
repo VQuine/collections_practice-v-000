@@ -32,7 +32,5 @@ end
 def kesha_maker(string_array)
   new_array = []
   string_array.each { |word| new_array << word }
-  new_array.each { |char| char[2] = "$" }  
+  new_array.each { |char| char[2] = "$" }
 end
-
-
