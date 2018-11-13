@@ -29,8 +29,15 @@ def reverse_array(array)
   array.reverse
 end
 
+# I feel like this can be refactored using 'yield'
 def kesha_maker(string_array)
   new_array = []
   string_array.each { |word| new_array << word }
   new_array.each { |char| char[2] = "$" }
 end
+
+
+
+
+
+
